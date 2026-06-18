@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/tbad-404/:path*",
-      "destination": "https://:API_ADMIN_SERVER_URL/:path*"
+      "destination": "https://$API_ADMIN_SERVER_URL/:path*"
     },
     {
       "source": "/k9-v2r/:path*",
-      "destination": "https://:API_ADMIN_FILE_URL/:path*"
+      "destination": "https://$API_ADMIN_FILE_URL/:path*"
     }
   ]
 }
