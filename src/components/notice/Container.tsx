@@ -17,10 +17,10 @@ export default function NoticeContainer() {
     { id: 3, title: "개인정보처리방침 변경 안내", author: "보안팀", createdAt: "2026-05-30", notice_type: 1 },
   ];
   const NOTICE_COLOR_MAP: Record<0 | 1 | 2 | 3, string> = {
-    0: 'bg-red-100 text-red-700',         // 🚨 긴급 오류 수정 (빨간색)
-    1: 'bg-blue-100 text-blue-700',       // 📢 일반 공지 (파란색)
-    2: 'bg-emerald-100 text-emerald-700', // ✨ 새로운 기능 (초록색)
-    3: 'bg-amber-100 text-amber-700',     // 🎁 홍보 (주황색)
+    0: 'bg-red-100 text-red-700',         
+    1: 'bg-blue-100 text-blue-700',      
+    2: 'bg-emerald-100 text-emerald-700', 
+    3: 'bg-amber-100 text-amber-700',     
   };
   const columns: Column<INoticeItem>[] = [
     { 

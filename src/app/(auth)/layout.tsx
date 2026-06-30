@@ -12,7 +12,8 @@ const sideTabs = [
   { title: "공지사항", url: "/notice" },
   { title: "전체 측정", url: "/measure" },
   { title: "전체 센터", url: "/center" },
-  { title: "센터별 매니저 관리", url: "/manager" },
+  { title: "센터별 매니저 관리", url: "/coach" },
+  { title: "전체 장치", url: "/device" },
 ];
 
 // 💡 1. any를 완전히 치우고 정확한 타입 매핑 (router에는 AppRouterInstance 적용)

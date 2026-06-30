@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/app/context/AuthContext';
-import MainContainer from '../components/main/Container';
+import MainContainer from '../../components/main/Container';
 
 // 홈화면임
 export default function AdminMainPage() {

@@ -1,7 +1,7 @@
+import CenterListContainer from "@/components/center/ListContainer";
+
 export default function CenterPage() {
   return (
-    <div>
-      센터 현황
-    </div>
+    <CenterListContainer />
   )
 }

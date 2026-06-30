@@ -1,4 +1,4 @@
-import NoticeContainer from "@/app/components/notice/Container";
+import NoticeContainer from "@/components/notice/Container";
 
 export default function NoticePage() {
   return (
